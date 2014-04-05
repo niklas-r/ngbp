@@ -1,6 +1,5 @@
-angular.module( 'ngBoilerplate.about', [
-  'ui.state',
-  'placeholders',
+angular.module( 'angularGruntApp.about', [
+  'ui.router',
   'ui.bootstrap'
 ])
 

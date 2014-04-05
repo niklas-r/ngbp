@@ -12,9 +12,8 @@
  * The dependencies block here is also where component dependencies should be
  * specified, as shown below.
  */
-angular.module( 'ngBoilerplate.home', [
-  'ui.state',
-  'plusOne'
+angular.module( 'angularGruntApp.home', [
+  'ui.router'
 ])
 
 /**
@@ -26,7 +25,7 @@ angular.module( 'ngBoilerplate.home', [
   $stateProvider.state( 'home', {
     url: '/home',
     views: {
-      "main": {
+      'main': {
         controller: 'HomeCtrl',
         templateUrl: 'home/home.tpl.html'
       }
